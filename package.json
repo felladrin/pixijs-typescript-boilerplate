@@ -1,0 +1,24 @@
+{
+  "name": "pixijs-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Ready to use PixiJS + Typescript game scene",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --experimental-scope-hoisting",
+    "lint": "eslint \"src/**/*.{js,ts}\" --fix"
+  },
+  "author": "Victor Nogueira <victor@victornogueira.app>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "parcel-bundler": "^1.12.3",
+    "pixi.js": "^5.1.5",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  }
+}
