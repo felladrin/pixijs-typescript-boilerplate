@@ -1,14 +1,15 @@
 import { Application, Texture, Sprite } from "pixi.js";
 import "./index.css";
 
+// eslint-disable-next-line
 // @ts-ignore
-import logoTexture from "./pixijs.png";
+import logoTexture from "url:./pixijs.png";
 
 const app = new Application({
   view: document.getElementById("game") as HTMLCanvasElement,
   width: 800,
   height: 600,
-  backgroundColor: 0x1099bb
+  backgroundColor: 0x1099bb,
 });
 
 const logo = new Sprite(Texture.from(logoTexture));
